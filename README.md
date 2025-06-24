@@ -88,7 +88,7 @@ mov eax, 1337
 ### ✅ With `encrypted_block<int>`:
 ```asm
 rdrand, xor, rotate, qmemcpy...
-; No trace of 1337
+; 1337 is hidden in these instructions making this extremely difficult to reverse 
 ```
 
 Everything is dynamically built at runtime using entropy and randomized transformations.
