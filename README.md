@@ -3,6 +3,8 @@
 
 A lightweight C++ wrapper for **runtime obfuscation of sensitive data**, designed to protect values like integers, pointers, syscall indices, and more from memory scanning, static analysis, and reverse engineering.
 
+This can also be combined with lateral obfuscation to provide maximum obfuscation against static reverse engineering
+
 Left side shows the unprotected version, right side shows the protected (obfuscated) version.
 ![Screenshot 2025-06-24 193408](https://github.com/user-attachments/assets/c07af1c0-a405-4279-868e-5a2a912b7b06)
 
